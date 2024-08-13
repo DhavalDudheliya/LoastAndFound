@@ -67,14 +67,27 @@ he Lost and Found Helper System is a university platform that allows students to
 
 3. Set up environment variables: 
    # Backend
-   PORT=5000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret
-   RAZORPAY_KEY=your_razorpay_key
-   RAZORPAY_SECRET=your_razorpay_secret
+  NODE_ENV = devlopment
+  PORT = 8000
+  MONGO_URI =mongodb+srv://db:db@cluster0.4seeh3x.mongodb.net/?retryWrites=true&w=majority
+  JWT_SECRET = abc123
+  CLIENT_ID =60617337648-f007rku04g1fiiru5gcn2pi8nu8g0r4d.apps.googleusercontent.com
+  CLIENT_SECRET = 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
+  callbackURL = http://localhost:8000/auth/google/callback
 
-   # Frontend
-   REACT_APP_API_URL=your_backend_api_url
+  cookieKey = Jayswaminarayan 
+
+  BASE_URL = http://localhost:3000/
+  SERVICE = gmail
+  EMAIL_PORT = 587
+  SECURE = true 
+
+  USER = fromlostandfoundhelper@gmail.com
+  USER_PASS = oaxrtmaieubzbgiz
+
+
+  ADMIN_USER = lostandfoundhelper@gmail.com
+  ADMIN_PASS = dhavalmanan
 
 4. Run the project:
    ```bash
